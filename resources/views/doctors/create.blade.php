@@ -19,7 +19,7 @@
                             @endif
                             
                             <!-- Form -->
-                            <form action="{{ route('register') }}" method="POST" enctype="multipart/form-data">
+                            <form action="{{ route('doctor.store') }}" method="POST" enctype="multipart/form-data">
                                 @csrf
                                 <div class="form-group">
                                     <input class="form-control" type="text" placeholder="Name" name="name">
@@ -32,10 +32,13 @@
                                 </div>   
                                 <select class="custom-select mb-3" name="role">
                                     <option selected>-Select Role-</option>
-                                    <option value="Subscriber">Subscriber</option>
-                                    <option value="Author">Author</option>
-                                    <option value="Moderator">Moderator</option>
-                                    <option value="Admin">Admin</option>
+                                    <option value="Dental">Dental</option>
+                                    <option value="Dermatologists">Dermatologists</option>
+                                    <option value="Endocrinologists">Endocrinologists</option>
+                                    <option value="Gastroenterologists">Gastroenterologists</option>
+                                    <option value="Allergists">Allergists</option>
+                                    <option value="Cardiologists">Cardiologists</option>
+                                    <option value="Nephrologists">Nephrologists</option>
                                   </select>                             
                                 <div class="form-group">
                                     <input class="form-control-file" type="file" name="photo">

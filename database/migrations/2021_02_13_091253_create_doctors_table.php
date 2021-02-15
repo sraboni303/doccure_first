@@ -18,7 +18,7 @@ class CreateDoctorsTable extends Migration
             $table->string('name')  ->nullable();
             $table->string('uname') ->nullable() ->unique();
             $table->string('email') ->nullable() ->unique();
-            $table->string('role')  ->default('Subscriber');
+            $table->string('role')  ->default('Dental');
             $table->string('photo') ->default('avatar.png');
             $table->timestamps();
         });

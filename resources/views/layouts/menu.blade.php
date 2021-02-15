@@ -11,7 +11,7 @@
                 </li>
 
                 <li> 
-                    <a href="{{ route('doctors') }}"><i class="fe fe-user-plus"></i> <span>Doctors</span></a>
+                    <a href="{{ route('doctor.index') }}"><i class="fe fe-user-plus"></i> <span>Doctors</span></a>
                 </li>
 
                 <li> 

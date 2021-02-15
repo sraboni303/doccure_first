@@ -2,12 +2,6 @@
 
 @section('content')
 
-
-
-
-
-
-
 <!-- Main Wrapper -->
 <div class="main-wrapper login-body">
 @include('layouts.header')
